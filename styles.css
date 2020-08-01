@@ -3,6 +3,7 @@
 
 body{
     background-color: #322f3d;
+    {overflow-x: hidden;}
 }
 
 /* for nav bar */
@@ -24,6 +25,7 @@ body{
 
 /* name and intro */
 
+
 .intro{
     font-family: 'Poppins', sans-serif;
 }
@@ -31,8 +33,35 @@ body{
     font-size: 3em;
 }
 
+
+/* skills */
+
+.skill{
+    background-color: #322f3d;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;    
+}
+
 .card{
     background-color: #4b5d67;
     color: white;
     width: 60%;
+}
+.project{
+    background-color: #322f3d;
+    color: white;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;    
+}
+.project-item{
+    background-color: #87556f;
+    color: white;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;    
+}
+footer{
+    background-color: #222831;
+    color: wheat;
+    font-family: 'Roboto', sans-serif;
 }

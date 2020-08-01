@@ -26,15 +26,19 @@
                     <div class="navbar-nav">
                         <a class="nav-item nav-link content active" href="#">Home <span
                                 class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link content" href="#">Skills</a>
-                        <a class="nav-item nav-link content" href="#">Projects</a>
-                        <a class="nav-item nav-link content" href="#">Blogs</a>
+                        <a class="nav-item nav-link content" href="#skills">Skills</a>
+                        <a class="nav-item nav-link content" href="#projects">Projects</a>
+                        <a class="nav-item nav-link content" href="#blogs">Blogs</a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
-    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 
     <!-- intro with fade-in effect-->
@@ -55,16 +59,22 @@
             </div>
         </div>
     </section>
-    <br><br><br>
+    <br class="hidden-md hidden-xs" id="skills"><br class="hidden-md hidden-xs">
 
     <!-- skills -->
+
+    <div class="jumbotron jumbotron-fluid skill p-0">
+        <div class="container">
+            <h1 class="display-4">SKILLS</h1>
+        </div>
+    </div>
 
     <div class="container align-self-center">
         <div class="row">
             <div class="card col-12 col-sm-4 m-2">
                 <div class="card-body">
                     <h5 class="card-title">Frontend</h5>
-                    <p class="card-text">I have decent knowledge of frontend technologies like 
+                    <p class="card-text">I have decent knowledge of frontend technologies like
                         HTML,CSS and frontend frameworks such as Bootstrap and libraries such as jQuery.js
                     </p>
                 </div>
@@ -73,7 +83,8 @@
             <div class="card col-12 col-sm m-2">
                 <div class="card-body">
                     <h5 class="card-title">Backend</h5>
-                    <p class="card-text">I am currently learning Node JS and wish to have good skills in MERN Tech Stack.</p>
+                    <p class="card-text">I am currently learning Node JS and wish to have good skills in MERN Tech
+                        Stack.</p>
                 </div>
             </div>
 
@@ -84,13 +95,109 @@
                 </div>
             </div>
         </div>
+        <br class="hidden-md hidden-xs" id="projects">
+
     </div>
 
+    <!-- projects -->
+    <div class="container align-self-center">
+        <div class="jumbotron jumbotron-fluid project p-2">
+            <div class="container col-12 p-0">
+                <h1 class="display-4 project p-0 m-0">PROJECTS</h1>
+            </div>
+        </div>
 
+        <div class="row p-4 mt-0">
+            <div class="jumbotron project-item col-12 mt-0 pt-0">
+                <h1 class="display-6 pt-0">Inspire.Bot</h1>
+                <p class="lead">A twitter bot that tweets out quotes from famous personalities every few hours</p>
+                <hr class="my-4">
+                <a class="btn btn-primary btn-lg" href="https://github.com/ranjitmnair/Inspire.Bot" target="_blank"
+                    role="button">Github Link</a>
+            </div>
 
+            <div class="jumbotron project-item col-12 mt-0 pt-0">
+                <h1 class="display-6 pt-0">Dictionary & Auto-Correct using Tries.</h1>
+                <p class="lead">A C++ program that uses Trie Data Structure to predict words if they are mis-spelt
+                    It also provides with the feature to add new words and their meanings to the program.
+                </p>
+                <hr class="my-4">
+                <a class="btn btn-primary btn-lg" href="https://github.com/ranjitmnair/DSA_Project" target="_blank"
+                    role="button">Github Link</a>
+            </div>
+        </div>
+    </div>
+    <br class="hidden-md hidden-xs" id="blogs">
 
+    <div class="container align-items-center">
+        <div class="jumbotron jumbotron-fluid project p-2">
+            <div class="container col-12 p-0">
+                <h1 class="display-4 project p-0 m-0">BLOG</h1>
+            </div>
+        </div>
 
+        <div class="jumbotron project-item col-12 mt-0 pt-0">
+            <h1 class="display-6 pt-0">Data Strutures & COVID-19</h1>
+            <p class="lead">A medium article written by me which describes the use of data structures such as
+                binary trees and graphs in explaining the spread of a disease.The article also explains the
+                importance of social distancing thorugh a C++ coded solution
+            </p>
+            <hr class="my-4">
+            <a class="btn btn-primary btn-lg" href="https://medium.com/student-technical-community-vit-
+            vellore/data-structures-covid-19-2555fa53196f" target="_blank" role="button">Medium Link</a>
+        </div>
 
+    </div>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="page-footer font-small blue pt-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <!-- Grid row -->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <!-- Content -->
+                    <h5 class="text-uppercase">RANJIT NAIR</h5>
+                    <p>B.Tech CSE (2023), VIT Vellore</p>
+
+                </div>
+                <!-- Grid column -->
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Find me on</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://github.com/ranjitmnair" target="_blank"><i class="fa fa-github"></i>
+                                GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ranjitnair19/" target="_blank"><i
+                                    class="fa fa-linkedin"></i> LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/ranjitmnair" target="_blank"><i class="fa fa-instagram"></i>
+                                Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@ranjitmnair" target="_blank"><i class="fa fa-medium"></i>
+                                Medium</a>
+                        </li>
+                    </ul>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+    </footer>
+    <!-- Footer -->
     <!-- bootstrap js file -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
