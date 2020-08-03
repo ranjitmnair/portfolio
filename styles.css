@@ -6,6 +6,11 @@ body{
     {overflow-x: hidden;}
 }
 
+.navigation{
+    background-color: #87556f;
+    color: white;
+}
+
 /* for nav bar */
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 0.5rem 0 0.5rem;
